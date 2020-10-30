@@ -36,6 +36,6 @@ setup(name='CLUSTER_SELECTION',
           "pandas>=1.1.3",
           "importlib-resources>=3.2.0",
           "scipy>=1.5.3",
-          "sklearn>=0.20.0"
+          "sklearn>=0.23.2"
       ]
       )
