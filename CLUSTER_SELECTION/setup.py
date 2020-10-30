@@ -16,7 +16,7 @@ def readme():
         return f.read()
 
 setup(name='CLUSTER_SELECTION',
-      version='0.3.6',
+      version='0.3.7',
       description='Learning setup',
       long_description= readme(),
       url='https://github.com/vineetbiyani09/ML/tree/master/CLUSTER_SELECTION',
@@ -29,13 +29,10 @@ setup(name='CLUSTER_SELECTION',
       packages=setuptools.find_packages(exclude=['tests']),
       zip_safe=False,
       install_requires=[ 
-          "librosa>=0.8.0",
-          "matplotlib>=3.2.2"
-          "tensorflow>=2.3.0",
+          "matplotlib>=3.2.2",
           "numpy>=1.18.5",
           "pandas>=1.1.3",
-          "importlib-resources>=3.2.0",
-          "scipy>=1.5.3",
-          "sklearn>=0.5.2"
+          "scipy>=1.4.1",
+          "sklearn>=0.22.2"
       ]
       )
