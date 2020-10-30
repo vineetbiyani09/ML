@@ -35,7 +35,7 @@ setup(name='CLUSTER_SELECTION',
           "numpy>=1.18.5",
           "pandas>=1.1.3",
           "importlib-resources>=3.2.0",
-          "scipy.cluster.hierarchy>=1.5.3",
-          "sklearn.cluster>=0.22.1"
+          "scipy>=1.5.3",
+          "sklearn>=0.22.1"
       ]
       )
