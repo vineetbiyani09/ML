@@ -16,7 +16,7 @@ def readme():
         return f.read()
 
 setup(name='CLUSTER_SELECTION',
-      version='3.6.5',
+      version='3.6.2',
       description='Learning setup',
       long_description= readme(),
       url='https://github.com/vineetbiyani09/ML/tree/master/CLUSTER_SELECTION',
