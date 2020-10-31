@@ -16,7 +16,7 @@ def readme():
         return f.read()
 
 setup(name='CLUSTER_SELECTION',
-      version='3.8.9',
+      version='3.8.5',
       description='Learning setup',
       long_description= readme(),
       url='https://github.com/vineetbiyani09/ML/tree/master/CLUSTER_SELECTION',
@@ -33,6 +33,6 @@ setup(name='CLUSTER_SELECTION',
           "numpy>=1.18.5",
           "pandas>=1.1.3",
           "scipy>=1.4.1",
-          "sklearn>=0.22.2.post1"
+          "scikit-learn>=0.22.2.post1"
       ]
       )
