@@ -14,6 +14,7 @@ class cluster_selection :
     import matplotlib.pyplot as plt
     import pandas as pd
     import scipy.cluster.hierarchy as sch
+    import sklearn
     from sklearn.cluster import KMeans
 
     #i = 0
