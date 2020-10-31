@@ -24,7 +24,7 @@ def cluster_plot(dataset, method, metric):
   for k in range(1, 11):
 
     kmeans = KMeans(n_clusters = k, init = 'k-means++', random_state = 42)
-    kmeans.fit(X)
+    kmeans.fit(dataset)
     wcss.append(kmeans.inertia_)
   plt.plot(range(1, 11), wcss)
   plt.title('The Elbow Method')
@@ -35,7 +35,7 @@ def cluster_plot(dataset, method, metric):
   for i in range(0,len(metric)):
     for j in range(0,len(method)):
       
-      sch.dendrogram(sch.linkage(X, method = method[j], metric = metric[i]))
+      sch.dendrogram(sch.linkage(dataset, method = method[j], metric = metric[i]))
       
       plt.title('Dendrogram Method: {}'.format(method[j]))
       plt.xlabel('Customers')
